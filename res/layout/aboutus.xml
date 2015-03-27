@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:background="@android:color/white">
+
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="1"
+		android:shrinkColumns="1"
+	>
+		<TextView android:id="@+id/companyContactInfo" 
+		     android:text="@string/companyContactInfo" 
+		     android:textColor="@android:color/black"
+		     android:textSize="20dp"
+		     android:gravity="center"/>
+		<TextView android:text="" 
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		
+		<TextView android:id="@+id/physicalAddress"  
+		     android:text="@string/physicalAddress" 
+		     android:textColor="@android:color/black"
+		     android:textSize="20dp"/>
+		<TextView android:id="@+id/addressOne"  
+		     android:text="@string/addressOne"  
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		<TextView android:id="@+id/addressTwo"  
+		     android:text="@string/addressTwo"  
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		<TextView android:id="@+id/addressThree"  
+		     android:text="@string/addressThree"  
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		<TextView android:text="" 
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		
+		<TextView android:text="Contact Person : " 
+		     android:textColor="@android:color/black"
+		     android:textSize="20dp"/>
+		<TextView android:drawableLeft="@drawable/twitlogo" 
+		     android:autoLink="web" 
+		     android:id="@+id/twitter"
+		     android:linksClickable="true"
+		     android:width="160dip"
+		     android:text="@string/twitterId" 
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		<TextView android:drawableLeft="@drawable/fblogo" 
+		     android:autoLink="web" 
+		     android:id="@+id/facebook"
+		     android:linksClickable="true"
+		     android:width="160dip"
+		     android:text="@string/facebookId" 
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		<TextView android:text="" 
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		
+		<TextView android:id="@+id/versionCode"  
+		     android:text="@string/versionCode"   
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		<TextView android:id="@+id/versionName"  
+		     android:text="@string/versionName"    
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		<TextView android:text="" 
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		<TextView android:text="" 
+		     android:textColor="@android:color/black"
+		     android:textSize="15dp"/>
+		
+		<TextView android:drawableTop="@drawable/scandiumlogo" 
+		    	 android:text="@string/scandiumscWeb" 
+		    	 android:textColor="@android:color/black"
+			     android:autoLink="web" 
+			     android:id="@+id/scandium"
+			     android:linksClickable="true"
+			     android:gravity="center"/>
+	</TableLayout>
+</ScrollView>

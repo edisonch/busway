@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RouteBuswayActivity!</string>
+    <string name="app_name">Busway</string>
+    <string name="show_map">Show Map</string>
+    
+    <string name="companyContactInfo">Company Contact Info</string>
+    <string name="physicalAddress">Physical Address</string>
+    <string name="addressOne">Jl. KH Mas Mansyur No 3 </string>
+    <string name="addressTwo">Jakarta 10240 </string>
+    <string name="addressThree">Indonesia</string>
+    
+    <string name="twitterId"> rifairizqy</string>
+    <string name="facebookId"> http://www.facebook.com/rifairizqy</string>
+    
+    <string name="versionCode">Version Code</string>
+    <string name="versionName">Version Name</string>
+    
+    <string name="scandiumscWeb">http://www.scandiumsc.com</string>
+</resources>

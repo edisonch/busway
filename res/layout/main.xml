@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profileSwitcher"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+	<RelativeLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/transjakartamain">
+
+   		<ProgressBar
+   		    android:id="@+id/progressbar"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_centerHorizontal="true"
+   		    android:layout_centerVertical="true" />
+
+   		<TextView
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_above="@+id/progressbar"
+   		    android:layout_centerHorizontal="true"
+   		    android:gravity="center"
+   		    android:text="Loading…" 
+   		    android:textSize="24dip"                   
+            android:textColor="#ffffff"/>
+
+	</RelativeLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/transjakartamain">
+	
+			<Button
+			    android:id="@+id/showmap"
+			    android:layout_width="75dip"
+			    android:layout_height="75dip"
+			    android:layout_alignParentBottom="true"
+			    android:layout_centerHorizontal="true"
+			    android:background="@drawable/btnshowmap"
+			    android:gravity="bottom"
+			    android:textColor="@android:color/black" />
+	
+	</RelativeLayout>
+</ViewSwitcher>

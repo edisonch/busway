@@ -1,0 +1,1 @@
+for /r %R in (.svn) do if exist %R (rd /s /q "%R")

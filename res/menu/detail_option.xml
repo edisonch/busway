@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- <item android:id="@+id/refresh"
+		android:icon="@drawable/ic_menu_refresh"
+		android:title="Refresh"
+	/> -->
+       
+	<item android:id="@+id/search"
+		android:icon="@drawable/ic_menu_search"
+		android:title="Search"
+	/>
+
+	<item android:id="@+id/directionList"
+	    android:icon="@drawable/ic_menu_directions"
+		android:title="Get Direction List"
+	/>
+	
+	<item android:id="@+id/reset"
+	    android:icon="@drawable/eraser"
+		android:title="Reset"
+	/>
+	
+	<item android:id="@+id/aboutus"
+	    android:icon="@drawable/ic_menu_directions"
+		android:title="About us"
+	/>
+	
+</menu>
